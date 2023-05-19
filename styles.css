@@ -1,0 +1,90 @@
+body {
+  background-color: darkgray;
+}
+
+#calc-title {
+
+  text-align: center;
+  max-width: 200px;
+  max-height: 35px;
+  margin: auto;
+  border: 0;
+  padding: 0;
+
+}
+
+#calc {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: grey;
+  border: solid black 2px;
+  min-height: 500px;
+  max-height: 500px;
+  min-width: 350px;
+  max-width: 350px;
+  margin-left: 26%;
+  border-radius: 25px;
+}
+
+
+button {
+  background-color: black;
+  color: white;
+  width: 55px;
+  height: 55px;
+  margin: 5px;
+  border-radius: 10%;
+
+
+}
+
+#my-equation {
+  margin: auto;
+  max-width: 300px;
+  min-width: 300px;
+  max-height: 125px;
+  min-height: 125px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+#buttons {
+  min-width: 300px;
+  max-width: 300px;
+  margin: auto;
+}
+
+#page {
+  display: flex;
+  flex-direction: row;
+
+}
+
+#history-box {
+  margin-left: 10%;
+  border: solid 2px;
+  background-color: grey;
+  border: solid black 2px;
+  min-height: 500px;
+  max-height: 500px;
+  min-width: 350px;
+  max-width: 350px;
+  border-radius: 25px;
+}
+
+#history-box-title {
+  display: flex;
+  flex: row;
+}
+
+#history-title-text {
+  padding-left: 10%;
+}
+
+#history-button {
+  margin-left: 5%;
+  border-radius: 10px;
+  margin-top: 5%;
+}
